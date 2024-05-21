@@ -1,9 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url('img/pattern.svg');
-    background-size: cover;
     color: white;
-    background-color: #000511;
+    background: rgb(0,5,17);
+    background: linear-gradient(90deg, rgba(0,5,17,1) 0%, rgba(3,17,51,1) 35%, rgba(5,24,71,1) 100%);
 }
 
 .navbar-link {
@@ -16,4 +15,8 @@ body {
 
 .navbar-link:hover {
     background-color: #4a5568;
+}
+
+.main{
+    background-color:#1c1c28;
 }
